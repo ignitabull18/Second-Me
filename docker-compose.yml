@@ -25,8 +25,8 @@ services:
     deploy:
       resources:
         limits:
-          # Set container memory limit to 24GB
-          memory: 64G
+          # Set container memory limit to 4GB
+          memory: 4G
         reservations:
           # Memory reservation
           memory: 6G
@@ -51,7 +51,7 @@ services:
     deploy:
       resources:
         limits:
-          # Set container memory limit to 8GB
+          # Set container memory limit to 2GB
           memory: 2G
         reservations:
           # Memory reservation
